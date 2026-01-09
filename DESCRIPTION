@@ -1,0 +1,35 @@
+Package: TruncatedPCQM
+Title: Density Estimation for Point-Centered Quarter Method with Truncated Sampling
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+        given = "Wenzhe",
+        family = "Huang",
+        email = "10211510437@stu.ecnu.edu.cn",
+        role = c("aut", "cre")
+    )
+Maintainer: Wenzhe Huang <10211510437@stu.ecnu.edu.cn>
+Description: 
+    Implements a systematic methodology for estimating population density from 
+    point-centered quarter method (PCQM) surveys when distance measurements are 
+    truncated by a maximum search radius (right-censored). The package provides 
+    a unified framework for analyzing such incomplete data, addressing both 
+    completely randomly distributed (Poisson) and spatially aggregated 
+    (Negative Binomial) populations.  Key features include: 
+    (1) Adjusted moment-based density estimators for censored distances;  
+    (2) Maximum likelihood estimation (MLE) of density under the Poisson (CSR) model; and  
+    (3) Simultaneous MLE of density and an aggregation parameter under the Negative Binomial model.
+License: GPL (>= 3)
+Encoding: UTF-8
+Language: en
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 3.5.0)
+Imports:
+Suggests: 
+    testthat (>= 3.0.0),
+    dplyr (>= 1.1.0)
+Config/testthat/edition: 3
+URL: https://github.com/rcjhrpyt-droid/TruncatedPCQM
+BugReports: https://github.com/rcjhrpyt-droid/TruncatedPCQM/issues
