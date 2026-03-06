@@ -123,10 +123,10 @@ cat("Vector result:", res3$Cottam_censored, "\n")
 If you use TruncatedPCQM in your research, please cite:
 
 ``` r
-@software{huang_truncatedpcqm_2024,
+@software{,
   title = {TruncatedPCQM: Density Estimation for Point-Centered Quarter Method with Truncated Sampling},
   author = {Huang, Wenzhe},
-  year = {2024},
+  year = {2026},
   url = {https://github.com/rcjhrpyt-droid/TruncatedPCQM}
 }
 ```
