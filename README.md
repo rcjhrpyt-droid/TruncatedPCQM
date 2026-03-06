@@ -139,11 +139,11 @@ res1 <- adjusted_moments(matrix_data, C = 20, q = 4, l = 2)
 res2 <- adjusted_moments(df_data, C = 20, q = 4, l = 2)
 res3 <- adjusted_moments(vector_data, C = 20, q = 4, l = 2)
 cat("Matrix result:", res1$Cottam_censored, "\n")
-#> Matrix result: 0.01945754
+#> Matrix result: 0.01941323
 cat("Data frame result:", res2$Cottam_censored, "\n")
-#> Data frame result: 0.01945754
+#> Data frame result: 0.01941323
 cat("Vector result:", res3$Cottam_censored, "\n")
-#> Vector result: 0.01945754
+#> Vector result: 0.01941323
 ```
 
 ## Citation
@@ -151,10 +151,10 @@ cat("Vector result:", res3$Cottam_censored, "\n")
 If you use TruncatedPCQM in your research, please cite:
 
 ``` r
-@software{huang_truncatedpcqm_2024,
+@software{,
   title = {TruncatedPCQM: Density Estimation for Point-Centered Quarter Method with Truncated Sampling},
   author = {Huang, Wenzhe},
-  year = {2024},
+  year = {2026},
   url = {https://github.com/rcjhrpyt-droid/TruncatedPCQM}
 }
 ```
