@@ -125,7 +125,7 @@ If you use TruncatedPCQM in your research, please cite:
 ``` r
 @software{,
   title = {TruncatedPCQM: Density Estimation for Point-Centered Quarter Method with Truncated Sampling},
-  author = {Huang, Wenzhe},
+  author = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},
   year = {2026},
   url = {https://github.com/rcjhrpyt-droid/TruncatedPCQM}
 }
@@ -138,7 +138,7 @@ This package is licensed under GPL (≥ 3). See the [LICENSE](LICENSE) file for 
 ## Support
 
 -   **Issues**: [GitHub Issues](https://github.com/rcjhrpyt-droid/TruncatedPCQM/issues)
--   **Email**: [10211510437\@stu.ecnu.edu.cn](mailto:10211510437@stu.ecnu.edu.cn){.email}
+-   **Email**: [51280155097\@stu.ecnu.edu.cn](mailto:51280155097@stu.ecnu.edu.cn){.email}
 -   **Documentation**: Run `?function_name` in R for detailed help
 
 ------------------------------------------------------------------------
