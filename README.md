@@ -129,6 +129,7 @@ Shen, Morisita) for right-censored PCQM data.
 
 ``` r
 # Matrix format (each row = sampling point, each column = sector)
+set.seed(123)
 matrix_data <- matrix(runif(80, 5, 15), nrow = 20, ncol = 4)
 # Data frame format
 df_data <- as.data.frame(matrix_data)
@@ -139,11 +140,11 @@ res1 <- adjusted_moments(matrix_data, C = 20, q = 4, l = 2)
 res2 <- adjusted_moments(df_data, C = 20, q = 4, l = 2)
 res3 <- adjusted_moments(vector_data, C = 20, q = 4, l = 2)
 cat("Matrix result:", res1$Cottam_censored, "\n")
-#> Matrix result: 0.01859635
+#> Matrix result: 0.01994273
 cat("Data frame result:", res2$Cottam_censored, "\n")
-#> Data frame result: 0.01859635
+#> Data frame result: 0.01994273
 cat("Vector result:", res3$Cottam_censored, "\n")
-#> Vector result: 0.01859635
+#> Vector result: 0.01994273
 ```
 
 ## Citation
@@ -151,6 +152,14 @@ cat("Vector result:", res3$Cottam_censored, "\n")
 If you use TruncatedPCQM in your research, please cite:
 
 ``` r
+@article{,
+  title   = {Population Density Estimators for Right-Censored Distance Sampling},
+  author  = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2603.08276},
+  url     = {https://arxiv.org/abs/2603.08276}
+}
+
 @software{,
   title = {TruncatedPCQM: Density Estimation for Point-Centered Quarter Method with Truncated Sampling},
   author = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},

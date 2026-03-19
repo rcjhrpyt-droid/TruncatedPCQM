@@ -104,6 +104,7 @@ Computes multiple moment-based density estimators (DK, Cottam, Pollard, Shen, Mo
 
 ```{r Data Input Formats}
 # Matrix format (each row = sampling point, each column = sector)
+set.seed(123)
 matrix_data <- matrix(runif(80, 5, 15), nrow = 20, ncol = 4)
 # Data frame format
 df_data <- as.data.frame(matrix_data)
@@ -123,6 +124,14 @@ cat("Vector result:", res3$Cottam_censored, "\n")
 If you use TruncatedPCQM in your research, please cite:
 
 ``` r
+@article{,
+  title   = {Population Density Estimators for Right-Censored Distance Sampling},
+  author  = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},
+  year    = {2026},
+  journal = {arXiv preprint arXiv:2603.08276},
+  url     = {https://arxiv.org/abs/2603.08276}
+}
+
 @software{,
   title = {TruncatedPCQM: Density Estimation for Point-Centered Quarter Method with Truncated Sampling},
   author = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},
