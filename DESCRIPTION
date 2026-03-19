@@ -1,6 +1,6 @@
 Package: TruncatedPCQM
 Title: Density Estimation for Point-Centered Quarter Method with Truncated Sampling
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     c(
         person(given = "Wenzhe", family = "Huang", role = c("aut", "cre"),
