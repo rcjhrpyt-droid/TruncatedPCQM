@@ -1,14 +1,13 @@
 Package: TruncatedPCQM
 Title: Density Estimation for Point-Centered Quarter Method with Truncated Sampling
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
-    person(
-        given = "Wenzhe",
-        family = "Huang",
-        email = "10211510437@stu.ecnu.edu.cn",
-        role = c("aut", "cre")
-    )
-Maintainer: Wenzhe Huang <10211510437@stu.ecnu.edu.cn>
+    person(given = "Wenzhe", family = "Huang", role = c("aut", "cre"),
+           email = "51280155097@stu.ecnu.edu.cn"),
+    person(given = "Guochun", family = "Shen", role = "aut"),
+    person(given = "Dingliang", family = "Xing", role = "aut"),
+    person(given = "Jiangyan", family = "Zhao", role = "aut")
+Maintainer: Wenzhe Huang <51280155097@stu.ecnu.edu.cn>
 Description: 
     Implements a systematic methodology for estimating population density from 
     point-centered quarter method (PCQM) surveys when distance measurements are 
