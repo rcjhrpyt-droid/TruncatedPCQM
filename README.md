@@ -168,11 +168,6 @@ If you use TruncatedPCQM in your research, please cite:
 }
 ```
 
-## License
-
-This package is licensed under GPL (≥ 3). See the [LICENSE](LICENSE)
-file for details.
-
 ## Support
 
 - **Issues**: [GitHub
