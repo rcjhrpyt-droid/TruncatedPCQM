@@ -23,77 +23,65 @@
 \method{print}{summary.pcqm_nbd_mle}(x, digits = 6, ...)
 }
 \arguments{
-\item{object}{An object of class \code{"pcqm_csr_mle"}, \code{"pcqm_moments"}, or \code{"pcqm_nbd_mle"},
-returned by \code{\link{csr_mle}}, \code{\link{adjusted_moments}}, or \code{\link{nbd_mle}}, respectively.
-Used for the \code{summary.*} S3 methods only.}
+\item{object}{Model object returned by \code{csr_mle},
+\code{adjusted_moments}, or \code{nbd_mle}.}
 
-\item{...}{Additional arguments passed to generic \code{summary} or \code{print} methods
-(currently unused; included for S3 consistency).}
+\item{...}{Additional arguments (unused).}
 
-\item{x}{An object of class \code{"summary.pcqm_csr_mle"}, \code{"summary.pcqm_moments"}, or \code{"summary.pcqm_nbd_mle"},
-returned by the corresponding \code{summary.*} method. Used for the \code{print.summary.*} S3 methods only.}
+\item{x}{Summary object returned by corresponding \code{summary()} method.}
 
-\item{digits}{Number of decimal places to display for numeric estimates. Default is 6.}
+\item{digits}{Number of digits to display.}
+}
+\value{
+An object of class \code{"summary.pcqm_csr_mle"}, a named list with components:
+\describe{
+\item{model}{Character string: \code{"csr_mle"}.}
+\item{lambda}{Estimated population density (intensity parameter \eqn{\lambda}).
+\code{NA} if estimation failed.}
+\item{logLik}{Maximized log-likelihood evaluated at \eqn{\hat{\lambda}}.}
+\item{n_points}{Number of focal sampling points.}
+\item{n_sectors}{Total number of sectors.}
+\item{n_censored}{Number of censored sectors.}
+\item{censored_rate}{Proportion of censored sectors.}
+}
+
+An object of class \code{"summary.pcqm_moments"}, a named list with components:
+\describe{
+\item{model}{Character string: \code{"moments"}.}
+\item{estimators}{Named numeric vector of valid adjusted moment estimators (NA removed).}
+\item{k_hat}{Estimated aggregation (dispersion) parameter \eqn{\hat{k}}.}
+\item{n_points}{Number of focal sampling points.}
+\item{n_sectors}{Total number of sectors.}
+\item{n_censored}{Number of censored sectors.}
+\item{censored_rate}{Proportion of censored sectors.}
+}
+
+An object of class \code{"summary.pcqm_nbd_mle"}, a named list with components:
+\describe{
+\item{model}{Character string: \code{"nbd_mle"}.}
+\item{lambda}{Estimated population density (intensity parameter \eqn{\lambda}).
+\code{NA} if estimation failed.}
+\item{k}{Estimated aggregation (dispersion) parameter of the Negative Binomial distribution.
+\code{NA} if estimation failed.}
+\item{logLik}{Maximized log-likelihood evaluated at \eqn{(\hat{\lambda}, \hat{k})}.}
+\item{n_points}{Number of focal sampling points.}
+\item{n_sectors}{Total number of sectors.}
+\item{n_censored}{Number of censored sectors.}
+\item{censored_rate}{Proportion of censored sectors.}
+}
 }
 \description{
-Generates structured summary objects and formatted console output
-for PCQM (Point-Centered Quarter Method) density estimation results under different model assumptions,
-with detailed statistical information beyond basic print output. The following specialized
-S3 methods are supported:
+Generate structured summary objects and formatted console output for
+PCQM (Point-Centered Quarter Method) density estimation results under
+different model assumptions.
+
+Supported S3 methods:
 \itemize{
-\item \code{summary.pcqm_csr_mle} – create summary object for CSR-based PCQM MLE results
-\item \code{summary.pcqm_moments} – create summary object for adjusted moment-based PCQM estimators
-\item \code{summary.pcqm_nbd_mle} – create summary object for NBD-based PCQM MLE results
-\item \code{print.summary.pcqm_csr_mle} – formatted print for CSR-based PCQM MLE summary
-\item \code{print.summary.pcqm_moments} – formatted print for adjusted moment estimator summary
-\item \code{print.summary.pcqm_nbd_mle} – formatted print for NBD-based PCQM MLE summary
+\item \code{summary.pcqm_csr_mle}
+\item \code{summary.pcqm_moments}
+\item \code{summary.pcqm_nbd_mle}
+\item \code{print.summary.pcqm_*}
 }
-}
-\examples{
-distances_matrix <- matrix(c(
-  9999.000000, 9999.000000, 9999.000000, 9999.000000,
-  9999.000000,    7.655136,   13.815876,   10.423496,
-     6.094721,    4.135461,    7.732912,    5.454545,
-  9999.000000, 9999.000000,   14.787289,   15.670821,
-  9999.000000,    9.825537,   11.611850,   15.757861,
-  9999.000000,    9.670381,   14.055394,   17.075678,
-    11.529219,    4.464136,    7.793114,   11.309553,
-    13.307828,    5.864490,   13.309636,    5.897720,
-  9999.000000, 9999.000000, 9999.000000, 9999.000000,
-  9999.000000, 9999.000000,   18.201084, 9999.000000,
-  9999.000000,    7.809056,   12.612496,    5.601366,
-     9.201294, 9999.000000,    8.353524,    9.683701,
-     6.592604,   19.117869,   19.758384,   12.923507,
-    15.574824,   10.643719,    9.494539,    7.382031,
-     9.143077, 9999.000000,   15.551414,    5.266916,
-  9999.000000, 9999.000000, 9999.000000, 9999.000000,
-    18.604278,    7.279454,    9.385355,    5.573127,
-  9999.000000, 9999.000000, 9999.000000, 9999.000000,
-  9999.000000, 9999.000000, 9999.000000, 9999.000000,
-    11.980811, 9999.000000,   11.853695,   14.405252
-), nrow = 20, ncol = 4, byrow = TRUE)
-
-# CSR-based MLE Summary
-csr_result <- csr_mle(distances = distances_matrix, C = 20, q = 4, l = 2,
-                      lambda_lower = 1e-4, lambda_upper = 1)
-summary(csr_result)
-
-# Adjusted Moment Estimators Summary
-moment_result <- adjusted_moments(distances = distances_matrix, C = 20, q = 4, l = 2,
-                                  init_method = "Pollard_censored")
-summary(moment_result)
-
-# NBD-based MLE Summary
-nbd_result <- nbd_mle(distances = distances_matrix, C = 20, q = 4, l = 2,
-                      init_method = "Pollard_censored", lambda_lower = 1e-4, lambda_upper = 10)
-summary(nbd_result)
-
-}
-\seealso{
-\code{\link{csr_mle}} for CSR-based MLE estimation;
-\code{\link{adjusted_moments}} for adjusted moment estimators;
-\code{\link{nbd_mle}} for NBD-based MLE estimation;
-\code{\link{print}} for basic PCQM estimation result display.
 }
 \keyword{CSR}
 \keyword{NBD}

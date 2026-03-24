@@ -17,6 +17,9 @@
 #' @param ... Additional arguments passed to the generic \code{print} method
 #'   (currently unused; included for S3 consistency).
 #'
+#' @return The input model object \code{x}, invisibly. These functions are called primarily for
+#'   their side effect of printing a formatted summary of the PCQM density estimation results
+#'   to the R console.
 #'
 #' @seealso \code{\link{csr_mle}} for CSR-based MLE estimation;
 #'   \code{\link{adjusted_moments}} for adjusted moment estimators;
