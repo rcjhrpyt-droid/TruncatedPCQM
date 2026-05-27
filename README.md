@@ -153,7 +153,7 @@ If you use TruncatedPCQM in your research, please cite:
 
 ``` r
 @article{,
-  title   = {Population Density Estimators for Right-Censored Distance Sampling},
+  title   = {A Unified Framework for Density Estimation under Right-Censored Point-Centred Quarter Sampling},
   author  = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},
   year    = {2026},
   journal = {arXiv preprint arXiv:2603.08276},

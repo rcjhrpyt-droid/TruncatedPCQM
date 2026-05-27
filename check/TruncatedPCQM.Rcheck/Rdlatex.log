@@ -1,0 +1,458 @@
+Hmm ... looks like a package
+Converting parsed Rd's to LaTeX 
+Creating pdf output from LaTeX ...
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/bk10.clo))
+(d:/softwares/for_rbase/R-4.5.1/share/texmf/tex/latex/Rd.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/bm.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/alltt.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.te
+x
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex)
+))))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cf
+g)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.d
+ef))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcm
+ds.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr
+.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys
+.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefi
+nekeys.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape
+.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmac
+ro.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.s
+ty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.s
+ty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintca
+lc.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.st
+y)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunf
+ilecheck.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniqu
+ecounter.sty))))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file Rd2.idx
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-p
+dftex.def)
+No file Rd2.aux.
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/gettitlestring/gett
+itlestring.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+[1{d:/softwares/for_latex/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex
+.map}]
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 74--76
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+[2] [3]
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 176--178
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+[4]
+Underfull \hbox (badness 3942) in paragraph at lines 247--247
+[]\T1/ptm/m/it/10 NBD-based Max-i-mum Like-li-hood Es-ti-ma-tor for Right-censo
+red
+
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 278--280
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+[5] [6]
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+) [7] [8] [9]
+No file Rd2.ind.
+[10] (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){d:/softwares/for_latex/tex
+live/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{d:/softwares/for_l
+atex/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/softwares/for_late
+x/texlive/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}<d:/softwares
+/for_latex/texlive/2022/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-z
+i4r.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (10 pages, 102368 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.16 [TeX Live 2022] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (45 entries accepted, 0 rejected).
+Sorting entries....done (250 comparisons).
+Generating output file Rd2.ind....done (66 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/bk10.clo))
+(d:/softwares/for_rbase/R-4.5.1/share/texmf/tex/latex/Rd.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/bm.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/alltt.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.te
+x
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex)
+))))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cf
+g)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.d
+ef))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcm
+ds.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr
+.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys
+.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefi
+nekeys.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape
+.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmac
+ro.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.s
+ty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.s
+ty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintca
+lc.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.st
+y)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunf
+ilecheck.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniqu
+ecounter.sty))))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file Rd2.idx
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-p
+dftex.def) (./Rd2.aux)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/gettitlestring/gett
+itlestring.sty)) (./Rd2.out) (./Rd2.out)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+(./Rd2.toc) [1{d:/softwares/for_latex/texlive/2022/texmf-var/fonts/map/pdftex/u
+pdmap/pdftex.map}]
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 74--76
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+[2] [3]
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 176--178
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+[4]
+Underfull \hbox (badness 3942) in paragraph at lines 247--247
+[]\T1/ptm/m/it/10 NBD-based Max-i-mum Like-li-hood Es-ti-ma-tor for Right-censo
+red
+
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 278--280
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+[5] [6]
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+) [7] [8] [9] (./Rd2.ind [10]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 55.
+
+[11]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){d:/softwares/for_latex/tex
+live/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{d:/softwares/for_l
+atex/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/softwares/for_late
+x/texlive/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}<d:/softwares
+/for_latex/texlive/2022/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-z
+i4r.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (11 pages, 113889 bytes).
+Transcript written on Rd2.log.
+This is makeindex, version 2.16 [TeX Live 2022] (kpathsea + Thai support).
+Scanning input file Rd2.idx....done (45 entries accepted, 0 rejected).
+Sorting entries....done (250 comparisons).
+Generating output file Rd2.ind....done (66 lines written, 0 warnings).
+Output written in Rd2.ind.
+Transcript written in Rd2.ilg.
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/bk10.clo))
+(d:/softwares/for_rbase/R-4.5.1/share/texmf/tex/latex/Rd.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/bm.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/alltt.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/url/url.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty)
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+) (d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/zi4.sty
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.te
+x
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/xkeyval/keyval.tex)
+))))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cf
+g)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.d
+ef))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcm
+ds.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr
+.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys
+.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefi
+nekeys.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape
+.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmac
+ro.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.s
+ty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.s
+ty)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintca
+lc.sty))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.st
+y)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunf
+ilecheck.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniqu
+ecounter.sty))))
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/base/makeidx.sty)
+Writing index file Rd2.idx
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-p
+dftex.def) (./Rd2.aux)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/generic/gettitlestring/gett
+itlestring.sty)) (./Rd2.out) (./Rd2.out)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/t1zi4.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+(./Rd2.toc) [1{d:/softwares/for_latex/texlive/2022/texmf-var/fonts/map/pdftex/u
+pdmap/pdftex.map}]
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 74--76
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
+[2] [3]
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 176--178
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+[4]
+Underfull \hbox (badness 3942) in paragraph at lines 247--247
+[]\T1/ptm/m/it/10 NBD-based Max-i-mum Like-li-hood Es-ti-ma-tor for Right-censo
+red
+
+Overfull \hbox (2.41689pt too wide) in paragraph at lines 278--280
+[]\T1/ptm/m/n/10 Maximum search ra-dius (cen-sor-ing thresh-old). Dis-tances ex
+-ceed-ing C are treated
+[5] [6]
+(d:/softwares/for_latex/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+) [7] [8] [9] (./Rd2.ind [10]
+
+LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
+(Font)              using `T1/zi4/m/n' instead on input line 55.
+
+[11]) (./Rd2.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(see the transcript file for additional information){d:/softwares/for_latex/tex
+live/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{d:/softwares/for_l
+atex/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{d:/softwares/for_late
+x/texlive/2022/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-0.enc}<d:/softwares
+/for_latex/texlive/2022/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-z
+i4r.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist/f
+onts/type1/urw/times/utmb8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-dist
+/fonts/type1/urw/times/utmr8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb><d:/softwares/for_latex/texlive/2022/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (11 pages, 114153 bytes).
+Transcript written on Rd2.log.
+Saving output to 'TruncatedPCQM-manual.pdf' ...
+Done
+You may want to clean up by 'rm -Rf C:/Users/Lenovo/AppData/Local/Temp/RtmpcbnMtH/Rd2pdf631420a77241'

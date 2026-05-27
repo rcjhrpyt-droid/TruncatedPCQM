@@ -1,0 +1,10 @@
+adjusted_moments        Adjusted Moment-based Estimators for
+                        Right-censored PCQM Data
+csr_mle                 CSR-based Maximum Likelihood Estimator for
+                        Right-censored PCQM Data
+nbd_mle                 NBD-based Maximum Likelihood Estimator for
+                        Right-censored PCQM Data
+print                   Print Methods for PCQM Density Estimation
+                        Objects
+summary                 Summary Methods for PCQM Density Estimation
+                        Objects

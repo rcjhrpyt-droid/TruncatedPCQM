@@ -1,25 +1,19 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
 # TruncatedPCQM
 
-**TruncatedPCQM** provides a systematic methodology for estimating population density from point-centered quarter method (PCQM) surveys when distance measurements are truncated by a maximum search radius (right-censored). The package implements both completely randomly distributed (Poisson) and spatially aggregated (Negative Binomial) models.
+**TruncatedPCQM** provides a systematic methodology for estimating
+population density from point-centered quarter method (PCQM) surveys
+when distance measurements are truncated by a maximum search radius
+(right-censored). The package implements both completely randomly
+distributed (Poisson) and spatially aggregated (Negative Binomial)
+models.
 
 ## Installation
 
-You can install the development version of TruncatedPCQM from [GitHub](https://github.com/rcjhrpyt-droid/TruncatedPCQM) with:
+You can install the development version of TruncatedPCQM from
+[GitHub](https://github.com/rcjhrpyt-droid/TruncatedPCQM) with:
 
 ``` r
 # install.packages("devtools")
@@ -28,7 +22,7 @@ devtools::install_github("rcjhrpyt-droid/TruncatedPCQM")
 
 ## Quick Start
 
-```{r Quick Start}
+``` r
 library(TruncatedPCQM)
 # Create example PCQM distance matrix
 distances_matrix <- matrix(c(
@@ -82,27 +76,58 @@ moment_result <- adjusted_moments(
 )
 # Display results
 print(nbd_result)
+#> NBD-based PCQM density estimation (MLE)
+#> --------------------------------------------------
+#> Estimated density (lambda): 0.014366 
+#> Aggregation parameter (k): 0.702610 
+#> Number of focal points: 20.0000 
+#> Censored sectors: 32 (40.0%)
 print(csr_result)
+#> CSR-based PCQM density estimation (MLE)
+#> --------------------------------------------------
+#> Estimated density (lambda): 0.007840 
+#> Number of focal points: 20.0000 
+#> Total sectors: 80 
+#> Censored sectors: 32 (40.0%)
 print(moment_result)
+#> Adjusted Moment Estimators for PCQM Density
+#> ===========================================
+#> Number of focal points: 20 
+#> Total sectors: 80 
+#> Censored sectors: 32 (40.0%) 
+#> 
+#> Density Estimators:
+#> -------------------
+#> Cottam_censored:    0.009915 
+#> Pollard_censored:   0.010331 
+#> Shen_censored:      0.011546 
+#> Morisita_censored:  0.011723 
+#> 
+#> Aggregation Parameter:
+#> ----------------------
+#> k_hat:  3.721403
 ```
 
 ## Main Functions
 
 ### `nbd_mle()`: Negative Binomial Distribution MLE
 
-Estimates population density and aggregation parameter under the Negative Binomial model, accounting for right-censored distances.
+Estimates population density and aggregation parameter under the
+Negative Binomial model, accounting for right-censored distances.
 
 ### `csr_mle()`: Complete Spatial Randomness MLE
 
-Estimates population density under the Poisson (CSR) model for right-censored PCQM data.
+Estimates population density under the Poisson (CSR) model for
+right-censored PCQM data.
 
 ### `adjusted_moments()`: Adjusted Moment Estimators
 
-Computes multiple moment-based density estimators (DK, Cottam, Pollard, Shen, Morisita) for right-censored PCQM data.
+Computes multiple moment-based density estimators (DK, Cottam, Pollard,
+Shen, Morisita) for right-censored PCQM data.
 
 ## Data Input Formats
 
-```{r Data Input Formats}
+``` r
 # Matrix format (each row = sampling point, each column = sector)
 set.seed(123)
 matrix_data <- matrix(runif(80, 5, 15), nrow = 20, ncol = 4)
@@ -115,8 +140,11 @@ res1 <- adjusted_moments(matrix_data, C = 20, q = 4, l = 2)
 res2 <- adjusted_moments(df_data, C = 20, q = 4, l = 2)
 res3 <- adjusted_moments(vector_data, C = 20, q = 4, l = 2)
 cat("Matrix result:", res1$Cottam_censored, "\n")
+#> Matrix result: 0.01994273
 cat("Data frame result:", res2$Cottam_censored, "\n")
+#> Data frame result: 0.01994273
 cat("Vector result:", res3$Cottam_censored, "\n")
+#> Vector result: 0.01994273
 ```
 
 ## Citation
@@ -125,7 +153,7 @@ If you use TruncatedPCQM in your research, please cite:
 
 ``` r
 @article{,
-  title   = {A Unified Framework for Density Estimation under Right-Censored Point-Centred Quarter Sampling},
+  title   = {Population Density Estimators for Right-Censored Distance Sampling},
   author  = {Huang, Wenzhe and Shen, Guochun and Xing, Dingliang and Zhao, Jiangyan},
   year    = {2026},
   journal = {arXiv preprint arXiv:2603.08276},
@@ -140,10 +168,16 @@ If you use TruncatedPCQM in your research, please cite:
 }
 ```
 
+## License
+
+This package is licensed under GPL (≥ 3). See the [LICENSE](LICENSE)
+file for details.
+
 ## Support
 
--   **Issues**: [GitHub Issues](https://github.com/rcjhrpyt-droid/TruncatedPCQM/issues)
--   **Email**: [51280155097\@stu.ecnu.edu.cn](mailto:51280155097@stu.ecnu.edu.cn){.email}
--   **Documentation**: Run `?function_name` in R for detailed help
+- **Issues**: [GitHub
+  Issues](https://github.com/rcjhrpyt-droid/TruncatedPCQM/issues)
+- **Email**: <51280155097@stu.ecnu.edu.cn>
+- **Documentation**: Run `?function_name` in R for detailed help
 
 ------------------------------------------------------------------------
